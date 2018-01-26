@@ -8,34 +8,42 @@
     <script src="https://fb.me/react-15.3.0.min.js"></script>
     <script src="https://fb.me/react-dom-15.3.0.min.js"></script>
 
-    <!-- throw-in-the-towel -->
-    <script src="https://unpkg.com/throw-in-the-towel@2"></script>
+    <!-- babel -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/6.24.0/babel.js"></script>
+
+
+
+    <!-- Firebase -->
+    <script src="https://www.gstatic.com/firebasejs/4.9.0/firebase.js"></script>
+    <script>
+      var config = {
+        apiKey: "AIzaSyCIt-SXHFUBMsfSyACYNC6h7KbHrmT53Uc",
+        authDomain: "eatwhat-6151420538.firebaseapp.com",
+        databaseURL: "https://eatwhat-6151420538.firebaseio.com",
+        projectId: "eatwhat-6151420538",
+        storageBucket: "eatwhat-6151420538.appspot.com",
+        messagingSenderId: "573626268392"
+      };
+      firebase.initializeApp(config);
+    </script>
+
 
 
     <!-- Custom CSS -->
     <link rel="stylesheet" href="styles.css">
+
+
+
+
+    <!-- Custom JS -->
+    <script type="text/babel" src="js/Test/index.js"></script>
+    <script type="text/babel" src="js/Test2/index.js"></script>
+
+
   </head>
   <body>
-    <!-- 
-    <div id="root"></div>
-    <script type="text/babel">
-        class Greeting extends React.Component {
-            render() {
-                return (<p>Hello world</p>);
-            }
-        }
-        ReactDOM.render(
-            <Greeting />,
-            document.getElementById('root')
-        );
-    </script>
- -->
-    <div id="test">
-        <script type="text/javascript" src='./js/Test/index.js'></script>
-    </div>
-
-    <div id="test2">
-        <script type="text/babel" src='./js/Test2/index.js'></script>
-    </div>
+    <div id="test"></div>
+    <div id="test2"></div>
+    
   </body>
 </html>

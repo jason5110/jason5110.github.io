@@ -1,10 +1,12 @@
-
-var html = '<h1>Hello, world!</h1>'
-
-
 class Test extends React.Component {
     render() {
-      return React.createElement("h1", {dangerouslySetInnerHTML: {__html: html}})
+      return (
+        <div>
+          <h1>
+            Hello, world!
+          </h1>
+        </div>
+      );
     }
 }
 
