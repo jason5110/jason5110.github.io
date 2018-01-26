@@ -20,9 +20,9 @@
         apiKey: "AIzaSyCIt-SXHFUBMsfSyACYNC6h7KbHrmT53Uc",
         authDomain: "eatwhat-6151420538.firebaseapp.com",
         databaseURL: "https://eatwhat-6151420538.firebaseio.com",
-        projectId: "eatwhat-6151420538",
-        storageBucket: "eatwhat-6151420538.appspot.com",
-        messagingSenderId: "573626268392"
+        // projectId: "eatwhat-6151420538",
+        // storageBucket: "eatwhat-6151420538.appspot.com",
+        // messagingSenderId: "573626268392"
       };
       firebase.initializeApp(config);
     </script>
@@ -45,5 +45,22 @@
     <div id="test"></div>
     <div id="test2"></div>
     
+
+
+    <div class="container">
+        <input id="txtEmail" type="email" placeholder="Email">
+        <input id="txtPassword" type="password" placeholder="Password">
+
+        <button id="btnLogin" class="btn btn-action">
+            Log in
+        </button>
+
+        <button id="btnLogout" class="btn btn-action hide">
+            Log out
+        </button>
+    </div>
+
+    <script src="js/Firebase_Auth/index.js"></script>
+
   </body>
 </html>
