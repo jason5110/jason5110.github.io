@@ -44,6 +44,10 @@
     		console.log(firebaseUser)
     		btnLogout.classList.remove('hide');
     		btnLogin.classList.add('hide');
+
+
+    		window.location.href = "pages/main.html"
+
     	} 
     	else{
     		console.log('not logged in')
