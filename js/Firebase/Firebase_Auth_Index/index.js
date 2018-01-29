@@ -46,7 +46,7 @@
     		btnLogin.classList.add('hide');
 
 
-    		window.location.href = "pages/main.html"
+    		window.location.href = "pages/main/index.html"
 
     	} 
     	else{
